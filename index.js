@@ -19,6 +19,6 @@ const userData = {
     })
     .catch(error => {
       let message = 'Unauthorized Access';
-      document.body.innerHTML = message;
-    })
+      document.body.innerHTML = error;
+   })
   }
